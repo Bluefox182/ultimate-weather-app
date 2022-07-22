@@ -71,7 +71,7 @@ const StyledApp = styled.div`
       width: 100%;
       height: auto;
       gap: 15px;
-      padding-top: 30px;
+      padding-top: 10px;
     }
   }
 
@@ -86,7 +86,7 @@ const StyledApp = styled.div`
     @media (max-width: 768px) {
       width: 100%;
       height: auto;
-      padding-top: 30px;
+      padding-top: 10px;
       overflow: hidden;
     }
   }
