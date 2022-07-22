@@ -75,7 +75,9 @@ const StyledDescription = styled.div`
     text-shadow: 0 0 2px #ffffff;
     @media (max-width: 768px) {
       font-size: 0.9rem;
-      justify-content: flex-start;
+      height: auto;
+      flex-direction: row;
+      justify-content: center;
     }
   }
 
