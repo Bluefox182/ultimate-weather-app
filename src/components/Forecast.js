@@ -53,7 +53,7 @@ const StyledForecast = styled.div`
     margin: 0 0 0 30px;
     text-shadow: 0 0 2px #ffffff;
     @media (max-width: 768px) {
-      font-size: 1.1rem;
+      font-size: 1rem;
       margin-left: 10px;
     }
   }
@@ -65,7 +65,7 @@ const StyledForecast = styled.div`
     padding: 40px 20px;
     gap: 80px;
     @media (max-width: 768px) {
-      padding: 10px 0;
+      padding: 5px 0;
     }
   }
 
@@ -90,7 +90,7 @@ const StyledForecast = styled.div`
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     @media (max-width: 768px) {
-      height: 120px;
+      height: 80px;
       padding: 25px 0;
     }
   }

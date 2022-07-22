@@ -86,7 +86,7 @@ const StyledApp = styled.div`
     @media (max-width: 768px) {
       width: 100%;
       height: auto;
-      padding-top: 10px;
+      padding-top: 0px;
       overflow: hidden;
     }
   }

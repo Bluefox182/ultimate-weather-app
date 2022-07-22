@@ -75,16 +75,19 @@ const StyledDescription = styled.div`
     text-shadow: 0 0 2px #ffffff;
     @media (max-width: 768px) {
       font-size: 0.9rem;
-      height: auto;
       flex-direction: row;
       justify-content: center;
+      align-items: center;
     }
+    p {
+      text-align: center;
   }
 
   .descContainer.item-container {
     @media (max-width: 768px) {
       display: flex;
       flex-direction: row;
+      justify-content: center;
     }
   }
 

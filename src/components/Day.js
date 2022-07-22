@@ -35,6 +35,9 @@ const StyledDay = styled.div`
       padding: 3px;
       font-size: 18px;
       color: #ffffff;
+      @media (max-width: 768px) {
+        font-size: 13px;
+      }
     }
     img {
       width: 80px;

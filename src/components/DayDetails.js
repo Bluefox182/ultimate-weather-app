@@ -28,7 +28,7 @@ function DayDetails({ weatherData }) {
               <p>{weatherData.wind} Km/h</p>
               <p>Wind</p>
             </div>
-            <div className="Card__Stats">
+            {/* <div className="Card__Stats">
               <img src={sunrise} alt="sunrise" />
               <p>
                 {new Date(weatherData.sunrise * 1000).toLocaleString("en-US", {
@@ -38,8 +38,8 @@ function DayDetails({ weatherData }) {
                 })}
               </p>
               <p>Sunrise</p>
-            </div>
-            <div className="Card__Stats">
+            </div> */}
+            {/* <div className="Card__Stats">
               <img src={sunset} alt="sunset" />
               <p>
                 {new Date(weatherData.sunset * 1000).toLocaleString("en-US", {
@@ -49,7 +49,7 @@ function DayDetails({ weatherData }) {
                 })}
               </p>
               <p>Sunset</p>
-            </div>
+            </div> */}
             <div className="Card__Stats">
               <img src={pressure} alt="pressure" />
               <p>{weatherData.pressure}hPa</p>
@@ -108,7 +108,7 @@ const StyledDayDetails = styled.div`
     margin: 0 0 0 30px;
     text-shadow: 0 0 2px #ffffff;
     @media (max-width: 768px) {
-      font-size: 1.1rem;
+      font-size: 1rem;
       margin-left: 10px;
     }
   }
@@ -135,6 +135,7 @@ const StyledDayDetails = styled.div`
     border: 1px solid rgba(255, 255, 255, 0.18);
     @media (max-width: 768px) {
       height: 120px;
+      padding: 0;
     }
   }
 
