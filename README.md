@@ -38,7 +38,7 @@ REACT_APP_GOOGLE_API_KEY= your_API_key
 - DayJs
 - Styled-Components
 - Material UI Icons
-- React Animation Weather Icons
+- React Animated Weather Icons
 
 ### API
 This project consumes the following APIs:
@@ -46,4 +46,16 @@ This project consumes the following APIs:
 - [Google Time Zone](https://developers.google.com/maps/documentation/timezone/overview) API for getting local time and dates for whichever city/country the user searches for
 - [Unsplash](https://api.unsplash.com/) API for background images relating to the city/country
 
+## Wins And Challenges
 
+### Wins
+- Implemented Celcius to Fahrenheit convertion by managing state.
+- Implemented Google Time Zome API and 
+- Changing background dynamically according to searched city using Unsplash API
+
+### Challenges
+- Convert time to the searched city's local time with Google API.
+- Refactoring Code
+
+## Final Look
+<img width="100%" src="https://i.ibb.co/VJpkzzX/portrait.png" alt="portrait" border="0">
